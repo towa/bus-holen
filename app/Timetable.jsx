@@ -33,8 +33,8 @@ class Timetable extends React.Component {
     }
 
     componentDidMount() {
-        this.getTimetable(this.props.match.params.stop);
-        this.interval = setInterval(() => this.getTimetable(this.props.match.params.stop), 5000);
+        this.getTimetable(this.props.stop);
+        this.interval = setInterval(() => this.getTimetable(this.props.stop), 5000);
     }
 
     componentWillUnmount() {
