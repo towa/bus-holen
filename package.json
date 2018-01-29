@@ -11,7 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
+    "babel-preset-stage-2": "^6.24.1",
     "corsproxy": "^1.5.0",
+    "downshift": "^1.25.0",
     "material-ui": "^1.0.0-beta.29",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",

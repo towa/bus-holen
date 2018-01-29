@@ -18,7 +18,6 @@ class TimeRow extends React.Component {
     render() {
         var liveStyle = this.props.row.live_mins > 3
             ? styles.defaultMins : styles.urgentMins;
-        console.log(this.props.row.live_mins);
         return (
             <ListItem>
                 <Avatar>{this.props.row.route}</Avatar>
