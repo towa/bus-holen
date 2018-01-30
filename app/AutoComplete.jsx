@@ -9,11 +9,11 @@ import { withStyles } from 'material-ui/styles';
 import busstops from './busstops.js';
 
 function renderInput(inputProps) {
-    const { classes, autoFocus, value, ref, ...other } = inputProps;
+    const { classes, value, ref, ...other } = inputProps;
 
     return (
         <TextField
-            autoFocus={autoFocus}
+            autoFocus={true}
             className={classes.textField}
             value={value}
             inputRef={ref}
