@@ -6,7 +6,7 @@ import StopButton from './StopButton.jsx';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
-import busstops from './busstops.js';
+import busstops from './busstops.json';
 
 const routes = [
     {   path : '/',

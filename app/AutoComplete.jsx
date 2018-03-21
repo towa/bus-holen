@@ -6,7 +6,7 @@ import TextField from 'material-ui/TextField';
 import Paper from 'material-ui/Paper';
 import { MenuItem } from 'material-ui/Menu';
 import { withStyles } from 'material-ui/styles';
-import busstops from './busstops.js';
+import busstops from './busstops.json';
 
 function renderInput(inputProps) {
     const { classes, value, ref, ...other } = inputProps;
