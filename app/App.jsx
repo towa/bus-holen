@@ -6,6 +6,7 @@ import StopButton from './StopButton.jsx';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
+import Paper from 'material-ui/Paper';
 import busstops from './busstops.json';
 
 const routes = [
@@ -32,7 +33,7 @@ busstops.stops.map((busstop) => {
 function App() {
     return (
     <BrowserRouter>
-        <div>
+        <Paper style={{maxWidth : 700, margin : 'auto'}}>
             <AppBar position="static">
                 <Toolbar>
                     <Switch>
@@ -61,7 +62,7 @@ function App() {
                     />
                 )}
             </Switch>
-        </div>
+        </Paper>
     </BrowserRouter>
     );
 }
